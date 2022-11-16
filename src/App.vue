@@ -4,7 +4,7 @@
     <router-link to="/home">Home</router-link>
     我是根组件
     <router-view></router-view>
-    <Footer></Footer>
+    <Footer v-show="$route.meta.show"></Footer>
   </div>
 </template>
 
